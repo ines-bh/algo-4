@@ -1,0 +1,48 @@
+PROCEDURE (i,elt,position)
+VAR
+    i : INTEGER =0;
+    elm:INTEGER
+BEGIN
+//i=index to the array
+// position= position des valeur
+// elm=valeur des i in array
+
+    FOR i FROM 1 TO array.lenght-1   DO
+    elt=array[i]
+    
+END_FOR
+//compare valeur de i with next i and make value
+
+   WHILE (position>0,array[position-1]>elt) DO
+   array[position]=array[position-1]
+   position=position-1
+   END_WHILE
+   array[position]=elt
+  
+   RETURN next i
+END
+
+
+
+PROCEDURE (i,elt,)
+VAR
+    i : INTEGER =0;
+    elm:INTEGER
+BEGIN
+//i=index to the array
+// elm=valeur des i in array
+
+    FOR i FROM 1 TO array.lenght-1   DO
+    elt=array[i]
+    
+END_FOR
+//compare valeur de i with next i and make value
+
+   WHILE (in>0,array[i-1]>elt) DO
+   array[i]=array[i-1]
+   i=i-1
+   END_WHILE
+   array[i]=elt
+  
+   RETURN next i
+END
